@@ -158,7 +158,9 @@ fim do projeto
 ativar projeto
 pasta raiz 
 cmd
-async-views -------env\Scripts\activate
+-async-views -------------python -m venv env
+-async-views -------------env\Scripts\activate
+-(env) async-views -------pip install -r requirements.txt
 -(env) async-views -------pip install django
 -(env) async-views -------pip install uvicorn
 -(env) async-views -------pip install httpx
